@@ -1,5 +1,7 @@
 ///<reference types="Cypress" />
 
+const { it } = require("mocha");
+
 describe('funcionalidade Pagina de Produtos', () => {
 
     beforeEach(() => {
@@ -17,7 +19,7 @@ describe('funcionalidade Pagina de Produtos', () => {
 
     });
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var quantidade = 3
 
 
@@ -33,6 +35,11 @@ describe('funcionalidade Pagina de Produtos', () => {
 
 
 
+    });
+
+    it('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
+        cy.addProdutos('Atlas Fitness Tank', 'M', 2)
+        
     });
 
 });
