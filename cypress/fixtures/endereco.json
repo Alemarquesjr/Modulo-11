@@ -1,0 +1,49 @@
+[
+{
+    "nome": "Ana",
+    "sobrenome": "Lucia",
+    "empresa": "EBAC",
+    "endereco": "Av São Paulo",
+    "numero": "2000",
+    "pais": "Brasil",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "cep": "08771495",
+    "telefone": "11978343246",
+    "email": "email@dominio.com.br"
+
+},
+
+{
+    "nome": "Gisele",
+    "sobrenome": "Buosi",
+    "empresa": "Google",
+    "endereco": "Av São João",
+    "numero": "250",
+    "pais": "Brasil",
+    "cidade": "Mogi das Cruzes",
+    "estado": "São Paulo",
+    "cep": "08771495",
+    "telefone": "11940704175",
+    "email": "gisele@uol.com.br"
+
+},
+
+{
+    "nome": "Beatriz",
+    "sobrenome": "Marques",
+    "empresa": "UEB",
+    "endereco": "Av Frederico Straub",
+    "numero": "800",
+    "pais": "Brasil",
+    "cidade": "Mogi das cruzes",
+    "estado": "São Paulo",
+    "cep": "08771900",
+    "telefone": "11978348569",
+    "email": "bia@terra.com.br"
+    
+}
+
+
+
+]
